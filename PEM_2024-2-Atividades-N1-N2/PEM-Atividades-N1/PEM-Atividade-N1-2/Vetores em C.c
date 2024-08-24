@@ -2,12 +2,13 @@
 * Disciplina: Programaçao Estruturada e Modular *
 *          Prof. Carlos Veríssimo                                    *
 *--------------------------------------------------------*
-* Objetivo do Programa: Implmentação de vetor para receber todas as notas
+* Objetivo do Programa: Implementação de vetor para receber todas as notas
 Implementação de vetor para receber todas provas    *
 * Data - 23/08/2024                                           * 
 * Autor: Mariana Fernandes Vieira
 *--------------------------------------------------------*/
 
+                                    /* Calculadora das notas dos candidatos */
 #include <stdio.h>
 #include <stdlib.h>
 
