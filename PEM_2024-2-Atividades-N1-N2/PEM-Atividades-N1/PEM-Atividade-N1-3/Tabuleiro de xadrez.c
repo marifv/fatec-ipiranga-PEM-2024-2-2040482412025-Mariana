@@ -11,14 +11,14 @@
 
 int main() {
     char* tabuleiro[64] = {
-        "PT1", "PC2", "PB3", "PD4", "PR5", "PB6", "PC7", "PT8",
+        "PT1", "PC1", "PB1", "PD1", "PR1", "PB2", "PC2", "PT2",
         "PP1", "PP2", "PP3", "PP4", "PP5", "PP6", "PP7", "PP8",
         " X ", " X ", " X ", " X ", " X ", " X ", " X ", " X ",
         " X ", " X ", " X ", " X ", " X ", " X ", " X ", " X ",
         " X ", " X ", " X ", " X ", " X ", " X ", " X ", " X ",
         " X ", " X ", " X ", " X ", " X ", " X ", " X ", " X ",
         "BP1", "BP2", "BP3", "BP4", "BP5", "BP6", "BP7", "BP8",
-        "BT1", "BC2", "BB3", "BD4", "BR5", "BB6", "BC7", "BT8"
+        "BT1", "BC1", "BB1", "BD1", "BR1", "BB2", "BC2", "BT2"
     };
 
     int linha = 8;
