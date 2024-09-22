@@ -65,12 +65,13 @@ int executarOperacao(int pilha[], char operador) {
     }
 
     // Atualiza a pilha
-    for (int i = 0; i < TAMANHO_PILHA - 1; i++) {
-        pilha[i] = pilha[i + 1]; // Move elementos para baixo
+    pilha[0] = resultado;
+    for (int i = 1; i < TAMANHO_PILHA; i++) {
+        pilha[i] = pilha[i + 1]; // Shift nos valores para liberar espaço
     }
-    pilha[0] = resultado; // Coloca o resultado no topo da pilha
-    return 1; // Sucesso
+    pilha[TAMANHO_PILHA - 1] = 0; // Limpa o topo da pilha
 }
+
 
 // Função para verificar se um token é um número válido
 int verificarNumero(const char *token) {
