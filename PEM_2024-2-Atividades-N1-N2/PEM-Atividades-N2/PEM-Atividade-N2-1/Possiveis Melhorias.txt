@@ -1,0 +1,20 @@
+Entrada do Usuário:
+
+O código atualmente utiliza um array fixo. Permitir que o usuário insira os valores pode tornar o programa mais flexível.
+Sugestão: Adicionar uma função para ler n números a partir da entrada do usuário.
+Validação de Entrada:
+
+O programa não valida a entrada do usuário. Caso o usuário digite um valor não numérico, o programa pode falhar.
+Sugestão: Implementar validação para garantir que os números inseridos sejam válidos.
+Otimização do Bubble Sort:
+
+O algoritmo pode ser otimizado usando uma flag para verificar se houve trocas na iteração. Se não houve troca, a lista já está ordenada e não é necessário continuar.
+Sugestão: Adicionar uma variável trocou para evitar iterações desnecessárias.
+Função printArray:
+
+A função poderia ser mais genérica, permitindo que o usuário escolha o formato de saída (por exemplo, em uma linha ou em várias linhas).
+Sugestão: Adicionar parâmetros à função printArray para formatar a saída.
+Documentação:
+
+O código não contém comentários explicativos sobre o que cada parte faz. Isso pode dificultar a compreensão para outras pessoas (ou no futuro, até para quem criou).
+Sugestão: Adicionar comentários que expliquem o propósito das funções e das principais seções do código.
